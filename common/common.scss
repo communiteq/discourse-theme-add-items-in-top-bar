@@ -1,0 +1,13 @@
+/* Select the Header tab and change the links and description in lines 7-8, 11-12 and so on */
+
+div#toprow-links {
+    display: inline;
+    float: left;
+    font-size: 1.2em;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+div#toprow-links a {
+    color: #666;
+    margin-right: 20px;
+}

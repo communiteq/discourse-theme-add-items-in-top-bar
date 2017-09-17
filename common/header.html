@@ -1,0 +1,18 @@
+<script type="text/discourse-plugin" version="0.2">
+api.decorateWidget('header-icons:before', helper => {
+    const showExtraInfo = helper.attrs.minimized;
+        if(!showExtraInfo) {
+            return helper.h('div#toprow-links', [
+                helper.h('a#test1', {
+                    href:'https://www.discoursehosting.com/', 
+                    text:'Link #1'
+                }),
+                helper.h('a#test2', {
+                    href:'https://www.discoursehosting.com/', 
+                    text:'Link #2'
+                })
+            ]);
+        }
+});
+</script>
+
